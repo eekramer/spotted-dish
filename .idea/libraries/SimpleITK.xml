@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SimpleITK">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/vendor/SimpleITK" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/vendor/SimpleITK" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/vendor/SimpleITK" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/vendor/SimpleITK" recursive="false" type="SOURCES" />
+  </library>
+</component>

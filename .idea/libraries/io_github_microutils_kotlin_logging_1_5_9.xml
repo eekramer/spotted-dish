@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="io.github.microutils:kotlin-logging:1.5.9" type="repository">
+    <properties maven-id="io.github.microutils:kotlin-logging:1.5.9" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-logging-1.5.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-logging-common-1.5.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-stdlib-common-1.2.60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-stdlib-1.2.60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/slf4j-api-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-logging-1.5.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-logging-common-1.5.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-stdlib-common-1.2.60-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/kotlin-stdlib-1.2.60-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/annotations-13.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/KotlinLogging/slf4j-api-1.7.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
