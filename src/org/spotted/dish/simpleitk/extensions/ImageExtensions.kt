@@ -41,3 +41,25 @@ fun Image.notEqual(constant : Double) : Image {
 fun Image.lessThan(constant : Double) : Image {
     return LessImageFilter().execute(this, constant)
 }
+
+fun Image.cast(pixelType : PixelIDValueEnum) : Image {
+    return CastImageFilter().apply {
+        outputPixelType = pixelType
+    }.execute(this)
+}
+
+fun Image.crop(boundingBox : VectorUInt32) : Image {
+    assert(boundingBox.size().toInt() == 6)
+    val indexVector = VectorInt32(3)
+    for (x in 0 until 3) {
+        indexVector[x] = (boundingBox[x].toInt())
+    }
+    val sizeVector = VectorUInt32(3)
+    for (x in 0 until 3) {
+        sizeVector[x] = (boundingBox[x+3])
+    }
+    return RegionOfInterestImageFilter().apply {
+        index = indexVector
+        size = sizeVector
+    }.execute(this)
+}
